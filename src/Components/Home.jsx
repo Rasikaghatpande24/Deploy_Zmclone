@@ -15,7 +15,7 @@ class Home extends React.Component {
     componentDidMount() {
         sessionStorage.clear();
         axios({
-            url: 'https://zmclone-backend.herokuapp.com/api/cityList',
+            url: 'http://localhost:6503/api/cityList',
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -25,7 +25,7 @@ class Home extends React.Component {
             .catch()
 
         axios({
-            url: 'https://zmclone-backend.herokuapp.com/api/mealtype',
+            url: 'http://localhost:6503/api/mealtype',
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
