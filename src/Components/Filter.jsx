@@ -30,7 +30,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:6503/api/restaurantfilter',
+            url: 'https://zmclone-backend.herokuapp.com/api/restaurantfilter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -45,7 +45,7 @@ class Filter extends React.Component {
             .catch()
 
         axios({
-            url: 'http://localhost:6503/api/cityList',
+            url: 'https://zmclone-backend.herokuapp.com/api/cityList',
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -70,7 +70,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:6503/api/restaurantfilter',
+            url: 'https://zmclone-backend.herokuapp.com/api/restaurantfilter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -101,7 +101,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:6503/api/restaurantfilter',
+            url: 'https://zmclone-backend.herokuapp.com/api/restaurantfilter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -133,7 +133,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:6503/api/restaurantfilter',
+            url: 'https://zmclone-backend.herokuapp.com/api/restaurantfilter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -173,7 +173,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:6503/api/restaurantfilter',
+            url: 'https://zmclone-backend.herokuapp.com/api/restaurantfilter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
