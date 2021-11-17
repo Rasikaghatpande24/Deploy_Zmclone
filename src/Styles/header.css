@@ -1,0 +1,36 @@
+.header {
+    height: 50px;
+    background-color: red;
+}
+
+.user-login {
+    float: right;
+    color: white;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.header-logo {
+    text-align: center;
+    font-size: 33px;
+    color: red;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1%;
+    font-family: Poppins;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.login {
+    display: inline-block;
+}
+
+.Signup {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    margin-left: 5px;
+}
