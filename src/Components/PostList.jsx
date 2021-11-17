@@ -33,7 +33,7 @@ class PostList extends React.Component {
     handleEdit = () => {
         //const {restId} = this.state;
         axios({
-            url: `http://localhost:6503/api/adminrestput`,
+            url: `https://zmclone-backend.herokuapp.com/api/adminrestput`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -46,7 +46,7 @@ class PostList extends React.Component {
 
     handleCreate = () => {
         // axios({
-        //     url:'http://loclhost:6503/api/addRestaurantadminlist',
+        //     url:'https://zmclone-backend.herokuapp.com/api/addRestaurantadminlist',
         //     method: "GET",
         //     headers: {'Content-Type': 'aaplication/json'}
         // })
