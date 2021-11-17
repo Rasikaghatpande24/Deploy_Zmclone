@@ -42,7 +42,7 @@ class Details extends React.Component {
         const { restaurant } = qs;
 
         axios({
-            url: `http://localhost:6503/api/getResById/${restaurant}`,
+            url: `https://zmclone-backend.herokuapp.com/api/getResById/${restaurant}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -55,7 +55,7 @@ class Details extends React.Component {
     handleOrder = () => {
         const { restId } = this.state;
         axios({
-            url: `http://localhost:6503/api/getItemsbyrestaurant/${restId}`,
+            url: `https://zmclone-backend.herokuapp.com/api/getItemsbyrestaurant/${restId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
