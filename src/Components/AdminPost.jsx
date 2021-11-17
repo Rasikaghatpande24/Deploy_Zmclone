@@ -14,7 +14,7 @@ class AdminPost extends React.Component{
     }
     componentDidMount() {
         axios({
-            url: 'https://zmclone-backend.herokuapp.com/api/adminrest',
+            url: 'http://localhost:6503/api/adminrest',
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
